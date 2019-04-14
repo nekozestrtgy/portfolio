@@ -80,7 +80,7 @@ header ul li.title h1 {
 }
 
 section#first-block {
-  background: image-url("00000022.JPG");
+  background: image-url("./images/00000022.JPG");
   position: relative;
 }
 section#first-block i {
