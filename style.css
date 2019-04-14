@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Slab", "Sawarabi Gothic", sans-serif;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+section {
+  height: 90vh;
+}
+
+.content {
+  width: 980px;
+  margin: 24px auto 0;
+  display: flex;
+}
+.content .left-content {
+  width: 374px;
+}
+.content .right-content {
+  width: 606px;
+  padding-left: 24px;
+}
+
+.content__works {
+  width: 208px;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 64px;
+  text-align: center;
+  margin: 48px auto;
+  text-decoration: underline;
+  width: 100%;
+}
+
+h3 {
+  display: inline-block;
+  font-size: 32px;
+  width: 100%;
+  margin-top: 24px;
+  text-align: center;
+}
+
+header {
+  height: 64px;
+  position: fixed;
+  z-index: 2;
+}
+header ul li {
+  display: block;
+  width: 10vw;
+  margin-top: 24px;
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  cursor: pointer;
+}
+header ul li.title {
+  width: 16vw;
+  text-decoration: underline;
+}
+header ul li.title h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+section#first-block {
+  background: image-url("00000022.JPG");
+  position: relative;
+}
+section#first-block i {
+  cursor: pointer;
+  color: white;
+  font-size: 64px;
+  opacity: 0.7;
+  position: absolute;
+  bottom: 36px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+section#second-block .content .left-content {
+  width: 374px;
+}
+section#second-block .content .left-content img {
+  height: 264px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+section#second-block .content .left-content h3 {
+  text-align: center;
+  width: 264px;
+}
+section#second-block .content .right-content p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+section#third-block {
+  background-color: #4169e1;
+  height: inherit;
+  padding-bottom: 48px;
+}
+section#third-block h2 {
+  color: white;
+}
+section#third-block .content {
+  display: flex;
+  justify-content: space-between;
+}
+section#third-block .content__works img {
+  max-width: 208px;
+}
+section#third-block .content__works h3 {
+  display: inline-block;
+  margin-bottom: 24px;
+  color: white;
+}
+
+.works-details {
+  height: auto;
+  border-top: 3px dotted white;
+  display: none;
+  background-color: #4169e1;
+}
+.works-details h3, .works-details h4, .works-details p, .works-details i {
+  color: white;
+}
+.works-details .content h3, .works-details .content h4, .works-details .content p {
+  display: block;
+  margin-bottom: 36px;
+}
+.works-details .content .works-details__left {
+  width: 700px;
+}
+.works-details .content .works-details__left h3 {
+  text-align: left;
+  margin: 24px auto 32px;
+}
+.works-details .content .works-details__left h4 {
+  margin-top: 24px;
+  font-size: 20px;
+}
+.works-details .content .works-details__left img {
+  width: 700px;
+  height: 514px;
+  margin-bottom: 72px;
+}
+.works-details .content .works-details__right {
+  width: 280px;
+}
+.works-details .content .works-details__right ul {
+  display: block;
+  float: right;
+}
+.works-details .content .works-details__right ul li {
+  display: inline-block;
+  margin: 0 0 24px 16px;
+}
+.works-details .content .works-details__right ul li p {
+  display: inline-block;
+}
+.works-details .content .works-details__right ul li i {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 16px;
+  line-height: 21px;
+}
+.works-details .slideup-button {
+  width: inherit;
+  cursor: inherit;
+}
+.works-details .slideup-button i {
+  font-size: 48px;
+  float: right;
+  cursor: pointer;
+}
+.works-details .slideup-button i:hover {
+  opacity: 0.7;
+}
+.works-details .slideup-button:hover {
+  opacity: 1;
+}
+
+section#fourth-block {
+  height: auto;
+}
+section#fourth-block .content ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 48px auto;
+}
+section#fourth-block .content ul a {
+  display: block;
+  width: 180px;
+}
+section#fourth-block .content ul a i, section#fourth-block .content ul a img {
+  text-align: center;
+  margin: 0 auto 10px;
+}
+section#fourth-block .content ul a i {
+  width: inherit;
+  font-size: 80px;
+}
+section#fourth-block .content ul a img {
+  display: block;
+  width: 80px;
+}
+section#fourth-block .content ul a .fa-twitter {
+  color: #00aced;
+}
+section#fourth-block .content ul a p {
+  text-align: center;
+}
+
+footer p {
+  margin: 48px auto;
+}

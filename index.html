@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Sawarabi+Gothic" rel="stylesheet"></link>
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" rel="stylesheet"></link>
+    <link rel='stylesheet' href='https://unpkg.com/ress/dist/ress.min.css'>
+    <link rel='stylesheet' href='./style.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li class="title">
+          <h1>portfolio</h1>
+        </li>
+        <li class="about-me">
+          about me
+        </li>
+        <li class="works">
+          works
+        </li>
+        <li class="contact">
+          contact
+        </li>
+      </ul>
+    </header>
+
+    <section id="first-block">
+      <i class="fas fa-angle-double-down"></i>
+    </section>
+
+    <section id="second-block">
+      <h2>about me</h2>
+      <div class="content">
+        <div class="left-content">
+          <img src="./images/profile_side.png" alt="image"></img>
+          <h3>Kazuki Sugiura</h3>
+        </div>
+      </div>
+      <div class="right-content">
+        <p>1992年生まれ。東京都出身。</p>
+        <br/>
+        <P>日本全国の古着屋ブログを読み漁ったり、ファイル共有ソフトやYouTubeで音楽を愛でつつ、高校卒業までサッカーに執心。大学進学後、就職活動を期に「文化とか芸術とかに関わって生きていきたいんだな」と自覚。</P>
+        <br/>
+        <p>証券会社へ入社後、友人の音楽・演劇活動に携わる中で演劇業界のマネジメント人材不足を知り、退社。劇場勤務と並行して若手演劇作家の活動支援を行いつつ、友人の戯曲賞受賞や知名度向上に貢献。のち、その実績が認められ韓国の演劇祭に参加。</p>
+        <br/>
+        <p>劇場退職後、一向に改善されない演劇業界の労働環境やジャーナリズムを変えうるサービスを作るため、TECH::EXPERTへ通学。2019年3月に卒業し、現在はエンジニア転職を目指して勉強中。</p>
+      </div>
+    </section>
+
+    <section id="third-block">
+      <h2>works</h2>
+      <div class="content">
+        <div class="content__works predawner">
+          <a>
+            <img alt="Image from Gyazo" src="https://i.gyazo.com/a8dbf55fedb67a28cca212e372a01c8e.gif" width="732"/>
+          </a>
+          <h3>predawner</h3>
+        </div>
+        <div class="content__works chatspace">
+          <a>
+            <img alt="Image from Gyazo" src="https://i.gyazo.com/211150b27a37cb92ad5ef30e75b7fc85.gif" width="960"/>
+          </a>
+          <h3>chatspace</h3>
+        </div>
+        <div class="content__works copysite">
+          <a>
+            <img alt="Image from Gyazo" src="https://i.gyazo.com/a4bda246e74535dcf249da285235fa47.gif" width="960"/>
+          </a>
+          <h3>copysite</h3>
+        </div>
+        <div class="content__works portfolio">
+          <a>
+            <img alt="Image from Gyazo" src="https://i.gyazo.com/a4bda246e74535dcf249da285235fa47.gif" width="960"/>
+          </a>
+          <h3>portfolio</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="works-details predawner">
+      <div class="content">
+        <div class="works-details__left">
+          <h3>predawner</h3>
+        </div>
+        <div class="works-details__right">
+          <a class="slideup-button">
+            <i class="fas fa-angle-double-up"></i>
+          </a>
+        </div>
+      </div>
+      <div class="content">
+        <div class="works-details__left">
+          <p>Ruby on Rails / jQuery / HTML(Haml) / CSS(SCSS) / AWS</p>
+          <p>朝まで過ごすためのお店や映画、本、音楽を共有するwebアプリ。Google Maps APIを活用したお店の登録・検索機能のみ実装できており、現在開発中（デモの操作は可能です）。</p>
+          <%= image_tag 'predawner1.png' %>
+        </div>
+        <div class="works-details__right">
+          <ul>
+            <li>
+              <p>view site</p>
+              <i class="fas fa-external-link-alt"></i>
+            </li>
+            <li>
+              <p>Github</p>
+              <i class="fab fa-github"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="works-details chatspace">
+      <div class="content">
+        <div class="works-details__left">
+          <h3>chatspace</h3>
+        </div>
+        <div class="works-details__right">
+          <a class="slideup-button">
+            <i class="fas fa-angle-double-up"></i>
+          </a>
+        </div>
+      </div>
+      <div class="content">
+        <div class="works-details__left">
+          <p>Ruby on Rails / jQuery / HTML(Haml) / CSS(SCSS) / AWS</p>
+          <p>簡易チャットアプリケーション</p>
+          <img src="./images/" alt="image"></img>
+        </div>
+        <div class="works-details__right">
+          <ul>
+            <li>
+              <p>view site</p>
+              <i class="fas fa-external-link-alt"></i>
+            </li>
+            <li>
+              <a href="https://github.com/nekozestrtgy/chat-space" target="_blank">
+                <p>Github</p>
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="works-details copysite">
+      <div class="content">
+        <div class="works-details__left">
+          <h3>copysite</h3>
+        </div>
+        <div class="works-details__right">
+          <a class="slideup-button">
+            <i class="fas fa-angle-double-up"></i>
+          </a>
+        </div>
+      </div>
+      <div class="content">
+        <div class="works-details__left">
+          <p>Ruby on Rails / jQuery / HTML(Haml) / CSS(SCSS) / AWS</p>
+          <p>メルカリのコピーサイト。4人のチームで開発しました。私はスクラムマスターと、トップページなどのフロントエンド、商品購入のサーバーサイド、ぱんくずの実装などを担当しました。</p>
+          <img src="./images/" alt="image"></img>
+        </div>
+        <div class="works-details__right">
+          <ul>
+            <li>
+              <p>view site</p>
+              <i class="fas fa-external-link-alt"></i>
+            </li>
+            <li>
+              <a href="https://github.com/nekozestrtgy/freemarket_sample_45e" target="_blank">
+                <p>Github</p>
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="works-details portfolio">
+      <div class="content">
+        <div class="works-details__left">
+          <h3>portfolio</h3>
+        </div>
+        <div class="works-details__right">
+          <a class="slideup-button">
+            <i class="fas fa-angle-double-up"></i>
+          </a>
+        </div>
+      </div>
+      <div class="content">
+        <div class="works-details__left">
+          <p>jQuery / HTML / CSS</p>
+          <p>ポートフォリオサイト</p>
+          <img src="./images/" alt="image"></img>
+        </div>
+        <div class="works-details__right">
+          <ul>
+            <li>
+              <p>view site</p>
+              <i class="fas fa-external-link-alt"></i>
+            </li>
+            <li>
+              <p>Github</p>
+              <i class="fab fa-github"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="fourth-block">
+      <h2>contact</h2>
+      <div class="content">
+        <ul>
+          <li>
+            <a href="https://github.com/nekozestrtgy" target="_blank">
+              <i class="fab fa-github"></i>
+              <p>nekozestrtgy</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://qiita.com/nekozestrtgy" target="_blank">
+              <img src="./images/256.svg" alt="image"></img>
+              <p>@nekozestrtgy</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://nekozestrtgy.hatenablog.com" target="_blank">
+              <img src="./images/hatenablog-logo.svg" alt="image"></img>
+              <p>nekozestrtgy</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/engineerkun1" target="_blank">
+              <i class="fab fa-twitter"></i>
+              <p>@engineerkun1</p>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:z45.sugiura.kazuki@gmail.com" target="_blank">
+              <img src="./images/icons8-gmail.svg" alt="image"></img>
+              <p>z45.sugiura.kazuki</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <div class="content">
+        <p>©️ 2019 Kazuki Sugiura</p>
+      </div>
+    </footer>
+
+  </body>
+
+</html>
